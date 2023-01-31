@@ -11,8 +11,26 @@ body{
 
 nav{
     grid-area: nav;
-    background-color: red;
+    background-color: rgb(253, 87, 87);
     padding: 25px;
+}
+
+#drop-down{
+    list-style: none;
+    display:flex;
+    justify-content:space-around;
+    align-content: center;
+}
+
+#drop-down > li{
+    display: flex;
+
+    
+}
+
+li > nav{
+    list-style-type: none;
+
 }
 
 .slideshow{
