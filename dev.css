@@ -4,8 +4,7 @@ body{
     grid-template-areas:
     'nav nav nav nav nav nav'
     'slideshow slideshow slideshow slideshow slideshow slideshow'
-    ' media-one media-one media-one media-one media-two media-two '
-    ' media-one media-one media-one media-one media-three media-three '
+    ' content content content content content content '
     'footer footer footer footer footer footer';
     background-color:gray;
 }
@@ -23,32 +22,32 @@ nav{
 }
 
 .content{
+    grid-area: content;
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
+   margin:10px;
 }
 
 .content > .media1{
     background-color: green;
-    grid-area: media-one;
-    padding: 150px;
+    padding: 200px;
 
 }
 
 .content > .media2{
     background-color: orange;
-    grid-area: media-two;
-    padding: 150px;
+    padding: 200px;
 }
 
 .content > .media3{
-    grid-area: media-three;
     background-color: pink;
-    padding: 150px;
+    padding: 200px;
 }
 
 footer{
     grid-area: footer;
     background-color: magenta;
-    padding:5em;
+    padding:10em;
+
 
 }
