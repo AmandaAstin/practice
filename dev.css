@@ -64,8 +64,8 @@ li > nav{
 
 footer{
     grid-area: footer;
-    background-color: magenta;
-    padding:10em;
+    background-color: rgb(253, 87, 87);
+    padding:5em 10px 10px 10px;
 
 
 }
