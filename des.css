@@ -49,8 +49,8 @@
     height: 500px;
 }
 
-.logo :hover {
-    transform: rotateX(360deg);
+.logo:hover {
+transform: rotateX(360deg);
 }
 
 .logo_flex {
@@ -63,18 +63,21 @@
     background-color: #f8e28c;
     grid-area: media-one;
     padding: 10px;
+    color: #666;
     }
     
 .media2{
     background-color: #f8e28c;
     grid-area: media-two;
     padding: 10px;
+    color: #666;
 }
     
 .media3{
     grid-area: media-three;
     background-color: #f8e28c;
     padding: 10px;
+    color: #666;
     }
 
 .media_img {
