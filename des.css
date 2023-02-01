@@ -61,7 +61,6 @@
 
 #content > .media1{
     background-color: rgb(255, 93, 93);
-    background-image: url()
     grid-area: media-one;
     padding: 150px;
     padding: 200px;
@@ -80,4 +79,8 @@
     background-color: pink;
     padding: 150px;
     padding: 200px;
+    }
+
+    .media_img {
+        height: 100px;
     }
