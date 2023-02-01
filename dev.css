@@ -12,7 +12,7 @@ background-color:gray;
 /* Navbar from W3Schools */
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #fad337;
     font-family: Arial;
   }
   
@@ -46,7 +46,7 @@ background-color:gray;
   
   /* Add a red background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(255, 93, 93);
+    background-color: #cf707e;
   }
   
   /* Dropdown content (hidden by default) */
