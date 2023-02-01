@@ -6,14 +6,14 @@ body{
     ' media-one media-one media-one media-one media-three media-three '
     ' content content content content content content '
     'footer footer footer footer footer footer';
-    background-color:gray;
+    background-color:rgb(204, 202, 188);
     margin:0;
 }
 
 /* Navbar from W3Schools */
 .navbar {
     overflow: hidden;
-    background-color: rgba(136, 136, 136);
+    background-color: #888;
     font-family: Arial;
   }
   
@@ -94,14 +94,16 @@ grid-area: content;
 display: flex;
 justify-content: space-between;
 justify-content: space-around;
-margin:10px;
+margin:100px;
 }
 
 footer {
 grid-area: footer;
-background-color: rgb(255, 93, 93);
+background-color: #f8e28c;
 padding:5em;
-padding:10em;
+}
 
-
+footer li{
+    list-style: none;
+    color:#666
 }
