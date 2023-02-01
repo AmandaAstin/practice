@@ -1,70 +1,50 @@
 body{
-    margin:0;
-    display: grid;
     grid-template-areas:
     'nav nav nav nav nav nav'
     'slideshow slideshow slideshow slideshow slideshow slideshow'
+    ' media-one media-one media-one media-one media-two media-two '
+    ' media-one media-one media-one media-one media-three media-three '
     ' content content content content content content '
     'footer footer footer footer footer footer';
-    background-color:gray;
+background-color:gray;
 }
 
-nav{
-    grid-area: nav;
-    background-color: rgb(253, 87, 87);
-    padding: 25px;
-}
-
-#drop-down{
-    list-style: none;
-    display:flex;
-    justify-content:space-around;
-    align-content: center;
-}
-
-#drop-down > li{
-    display: flex;
-
-    
-}
-
-li > nav{
-    list-style-type: none;
-
-}
-
-.slideshow{
-    grid-area: slideshow;
-    background-color: blue;
-    padding: 100px;
-}
 
 .content{
-    grid-area: content;
-   display: flex;
-   justify-content: space-around;
-   margin:10px;
+grid-area: content;
+display: flex;
+justify-content: space-between;
+justify-content: space-around;
+margin:10px;
 }
 
 .content > .media1{
-    background-color: green;
-    padding: 200px;
+background-color: green;
+grid-area: media-one;
+padding: 150px;
+padding: 200px;
 
 }
 
 .content > .media2{
-    background-color: orange;
-    padding: 200px;
+background-color: orange;
+grid-area: media-two;
+padding: 150px;
+padding: 200px;
 }
 
 .content > .media3{
-    background-color: pink;
-    padding: 200px;
+grid-area: media-three;
+background-color: pink;
+padding: 150px;
+padding: 200px;
 }
 
 footer{
-    grid-area: footer;
-    background-color: rgb(253, 87, 87);
-    padding:5em 10px 10px 10px;
+grid-area: footer;
+background-color: magenta;
+padding:5em;
+padding:10em;
+
 
 }
