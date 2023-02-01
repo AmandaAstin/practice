@@ -97,29 +97,7 @@ justify-content: space-around;
 margin:100px;
 }
 
-#content > .media1{
-background-color: green;
-grid-area: media-one;
-padding: 150px;
-padding: 200px;
-
-}
-
-#content > .media2{
-background-color: orange;
-grid-area: media-two;
-padding: 150px;
-padding: 200px;
-}
-
-#content > .media3{
-grid-area: media-three;
-background-color: pink;
-padding: 150px;
-padding: 200px;
-}
-
-footer{
+footer {
 grid-area: footer;
 background-color: #f8e28c;
 padding:5em;
