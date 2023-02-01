@@ -6,7 +6,7 @@ body{
     ' media-one media-one media-one media-one media-three media-three '
     ' content content content content content content '
     'footer footer footer footer footer footer';
-    background-color:gray;
+    background-color:#888;
     margin:0;
 }
 
@@ -94,7 +94,7 @@ grid-area: content;
 display: flex;
 justify-content: space-between;
 justify-content: space-around;
-margin:10px;
+margin:100px;
 }
 
 #content > .media1{
@@ -123,7 +123,7 @@ footer{
 grid-area: footer;
 background-color: rgb(255, 93, 93);
 padding:5em;
-padding:10em;
+
 
 
 }
