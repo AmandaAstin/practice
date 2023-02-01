@@ -107,3 +107,8 @@ footer li{
     list-style: none;
     color:#666
 }
+
+footer li a{
+  text-decoration:none;
+  color:#666;
+}
