@@ -49,8 +49,8 @@
     height: 500px;
 }
 
-.logo:hover {
-    
+.logo :hover {
+    transform: rotateX(360deg);
 }
 
 .logo_flex {
@@ -59,28 +59,24 @@
     justify-content: center;
 }
 
-#content > .media1{
-    background-color: rgb(255, 93, 93);
+.media1{
+    background-color: #f8e28c;
     grid-area: media-one;
-    padding: 150px;
-    padding: 200px;
-    
+    padding: 10px;
     }
     
-    #content > .media2{
-    background-color: orange;
+.media2{
+    background-color: #f8e28c;
     grid-area: media-two;
-    padding: 150px;
-    padding: 200px;
-    }
+    padding: 10px;
+}
     
-    #content > .media3{
+.media3{
     grid-area: media-three;
-    background-color: pink;
-    padding: 150px;
-    padding: 200px;
+    background-color: #f8e28c;
+    padding: 10px;
     }
 
-    .media_img {
-        height: 100px;
-    }
+.media_img {
+    height: 300px;
+}
