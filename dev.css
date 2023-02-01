@@ -123,7 +123,9 @@ footer{
 grid-area: footer;
 background-color: #f8e28c;
 padding:5em;
+}
 
-
-
+footer li{
+    list-style: none;
+    color:#666
 }
