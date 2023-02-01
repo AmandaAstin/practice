@@ -6,13 +6,14 @@ body{
     ' media-one media-one media-one media-one media-three media-three '
     ' content content content content content content '
     'footer footer footer footer footer footer';
-background-color:gray;
+    background-color:gray;
+    margin:0;
 }
 
 /* Navbar from W3Schools */
 .navbar {
     overflow: hidden;
-    background-color: #fad337;
+    background-color: rgba(136, 136, 136);
     font-family: Arial;
   }
   
@@ -20,24 +21,30 @@ background-color:gray;
   .navbar a {
     float: left;
     font-size: 16px;
-    color: white;
+    color: #f8e28c;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
+    margin: 1em;
+    border-radius:5px;
   }
   
   /* The dropdown container */
   .dropdown {
     float: left;
     overflow: hidden;
+    margin: 1em;
+    border-radius:5px;
   }
   
   /* Dropdown button */
   .dropdown .dropbtn {
     font-size: 16px;
+    font-weight: bold;
     border: none;
     outline: none;
-    color: white;
+    color: #f8e28c;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
@@ -46,14 +53,15 @@ background-color:gray;
   
   /* Add a red background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #cf707e;
+    background-color: #f8e28c;
+    color:#888;
   }
   
   /* Dropdown content (hidden by default) */
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #333;
+    background-color: #888;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -62,16 +70,18 @@ background-color:gray;
   /* Links inside the dropdown */
   .dropdown-content a {
     float: none;
-    color: white;
+    color: #f8e28c;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
+    font-weight: bold;
   }
   
   /* Add a grey background color to dropdown links on hover */
   .dropdown-content a:hover {
-    background-color: #3333;
+    background-color: #f8e28c;
+    color:#666;
   }
   
   /* Show the dropdown menu on hover */
@@ -79,7 +89,7 @@ background-color:gray;
     display: block;
   }
   
-.content{
+#content{
 grid-area: content;
 display: flex;
 justify-content: space-between;
@@ -87,7 +97,7 @@ justify-content: space-around;
 margin:10px;
 }
 
-.content > .media1{
+#content > .media1{
 background-color: green;
 grid-area: media-one;
 padding: 150px;
@@ -95,14 +105,14 @@ padding: 200px;
 
 }
 
-.content > .media2{
+#content > .media2{
 background-color: orange;
 grid-area: media-two;
 padding: 150px;
 padding: 200px;
 }
 
-.content > .media3{
+#content > .media3{
 grid-area: media-three;
 background-color: pink;
 padding: 150px;
