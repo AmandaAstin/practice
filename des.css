@@ -49,8 +49,35 @@
     height: 500px;
 }
 
+.logo:hover {
+    
+}
+
 .logo_flex {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+#content > .media1{
+    background-color: rgb(255, 93, 93);
+    background-image: url()
+    grid-area: media-one;
+    padding: 150px;
+    padding: 200px;
+    
+    }
+    
+    #content > .media2{
+    background-color: orange;
+    grid-area: media-two;
+    padding: 150px;
+    padding: 200px;
+    }
+    
+    #content > .media3{
+    grid-area: media-three;
+    background-color: pink;
+    padding: 150px;
+    padding: 200px;
+    }
